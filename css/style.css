@@ -1,0 +1,74 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: linear-gradient(to top left, #3399ff 0%, #ffffcc 100%);
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.select {
+	margin: 0 auto;
+	width: 50%;
+	clear: both;
+}
+
+
+.door img {
+	width: 30%;
+	margin: 1.667%;
+	display: inline-block;
+	float: left;
+
+}
+
+.btns {
+	width: 30%;
+	margin: 1.489%;
+	display: inline-block;
+}
+
+.btn {
+	width: 100%;
+	text-align: center;
+}
+
+.btn button {
+	background-color: steelblue;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 8px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.btn button:hover {
+	background-color: white;
+	color: steelblue;
+}
+
+#reset-btn {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#reset-btn button {
+	background-color: purple;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#reset-btn button:hover {
+	background-color: white;
+	color: purple;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guessing Door Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Guess the correct door!</h1>
+	<div class="select">
+		<div class="door">
+			<img src="img/door.png" id="door1">
+		</div>
+		<div class="door">
+			<img src="img/door.png" id="door2">
+		</div>
+		<div class="door">
+			<img src="img/door.png" id="door3">
+		</div>
+		<p id="test"></p>
+	</div>
+		<div class="select">
+			<div class="btns">
+				<div class="btn">
+					<button type="button" onclick="choice1()">Door #1</button>
+				</div>
+			</div>
+			<div class="btns">
+				<div class="btn">
+					<button type="button" onclick="choice2()">Door #2</button>
+				</div>
+			</div>
+			<div class="btns">
+				<div class="btn">
+					<button type="button" onclick="choice3()">Door #3</button>
+				</div>
+			</div>
+		</div>
+		<div class="select">
+			<div id="reset-btn">
+				 <a href="index.html"><button>Reset</button></a>
+			</div>
+		</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
